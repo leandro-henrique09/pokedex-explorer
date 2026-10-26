@@ -1,0 +1,40 @@
+body {
+    background-color: #0f172a;
+}
+
+.lista-pokemons{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 32px;
+}
+
+.card-pokemon {
+  background-color: #323c52;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #586277;
+}
+
+.imagem-pokemon{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.nome-pokemon{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.numero-pokemon{
+    color: #e7e7e7;
+    font-size: 1rem;
+}
+
+.tipos-pokemon{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
